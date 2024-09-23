@@ -1,8 +1,9 @@
 FIBONACCI GENERATOR :
 #fabanoic series less than 100
+i=int(input("enter a value :"))
 a=0
 b=1
-for i in range(100):
+for i in range(i):
     c=a+b
     print(c)
     a=b
